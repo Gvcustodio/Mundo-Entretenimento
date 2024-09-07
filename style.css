@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
      /* Ajusta a imagem de fundo para ocupar toda a tela */
-     background-image: url("img/th.jfif");
+     background-image: url("img/cinema.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -123,7 +123,7 @@ section button:active{
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #244363; /* Cor de fundo do rodapé */
+    background-color: #244363a8; /* Cor de fundo do rodapé */
     color: #ffffff; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
