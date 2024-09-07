@@ -12,6 +12,11 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0;
     padding: 0;
+     /* Ajusta a imagem de fundo para ocupar toda a tela */
+     background-image: url("img/th.jfif");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
 }
 
 
@@ -49,6 +54,26 @@ section button {
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
     background-color: #30475E; /* Cor de fundo do botão */
+    color: #f5f8f5; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+section button:hover{
+    padding: 0.9rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.8rem; /* Borda arredondada */
+    background-color: #37526e; /* Cor de fundo do botão */
+    color: #f5f8f5; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+section button:active{
+    padding: 0.9rem 1.3rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #007bff; /* Cor de fundo do botão */
     color: #f5f8f5; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
